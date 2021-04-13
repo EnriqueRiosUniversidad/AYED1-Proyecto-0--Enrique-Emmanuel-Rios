@@ -24,7 +24,8 @@ int dividir(int numero) { //Divide numeros pares e impares, en el segundo caso l
 }
 
 //Descomenta para ejecurtar  el main
-/*int main()
+/*
+int main()
 {	//La cantidad de variables es para una asimilacion directa
 	//la base es el menor valor posible.
 	//El techo es el valor posible más alto.

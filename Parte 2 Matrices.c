@@ -14,6 +14,7 @@ void producto(int** matriz_A, int** matriz_B, int n);
 int suma_elementos_del_array(int* array, int n);
 
 // Función main
+
 int main(){
     srand(getpid()); //obtiene el id del proceso del programa y se lo pasa a srand
     char basura;
@@ -109,15 +110,8 @@ void suma(int** matriz_A, int** matriz_B, int n) {
     imprimir_matriz(matriz_C,n);
     
 }
-/*Les contare una historia, esta historia es la de un programador que demoro un par de horas 
-creando la representacion algoritmica de un producto matricial.
-El joven programador dio vueltas y vueltas al codigo sin conseguir mejora.
-Se fui a saltar la cuentar por 8 minutos y tomo una merecida ducha.
-Se sento encontes frente a su computadora y buzo en Deezer una playList de FingerStyle
-Luego se le vino por la mente, ¿Y si borro todo y comienzo de nuevo?
-Asi lo hizo, luego escribio el codigo que tanto habia masticado
-la compilacion fue buena y ejecuto el codigo, para el agrado del lector nuestro amigo
-Consiguio lo que busco.*/
+
+//resta 2 matrices.
 void resta(int** matriz_A, int** matriz_B, int n) {
     int** matriz_C = crear_Matriz(n);
    // cargar_matriz(matriz_C, n);
@@ -132,7 +126,15 @@ void resta(int** matriz_A, int** matriz_B, int n) {
 
 }
 
-
+/*Les contare una historia, esta historia es la de un programador que demoro un par de horas
+creando la representacion algoritmica de un producto matricial.
+El joven programador dio vueltas y vueltas al codigo sin conseguir mejora.
+Se fui a saltar la cuentar por 8 minutos y tomo una merecida ducha.
+Se sento encontes frente a su computadora y buzo en Deezer una playList de FingerStyle
+Luego se le vino por la mente, ¿Y si borro todo y comienzo de nuevo?
+Asi lo hizo, luego escribio el codigo que tanto habia masticado
+la compilacion fue buena y ejecuto el codigo, para el agrado del lector nuestro amigo
+Consiguio lo que busco.*/
 void producto(int** matriz_A, int** matriz_B, int n) { //n tamaño del cada lado de la matriz.
     int* temp_array = calloc(n, sizeof(int)); //Array donde van las sumas.
     int** matriz_C = crear_Matriz(n);
