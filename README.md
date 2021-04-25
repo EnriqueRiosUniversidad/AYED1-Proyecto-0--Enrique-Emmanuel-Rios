@@ -17,5 +17,8 @@ Luego se suman, restan y se efectúa el producto.
 --Ejecusion:
 Para ejecutar la parte 1 vaya al archivo Parte 2  y Comente el main(). Luego descomente el main de la Parte 1.
 
+Detalle interesante:
+Mi algoritmo de adivina el numero,  encuentra el numero en 20 a 21 consultas. lo que seria N / 47 aproximadamente.
+
 Repositorio de Github: https://github.com/EnriqueRiosUniversidad/AYED1-Proyecto-0--Enrique-Emmanuel-Rios.git
 Follow me for more conten like this. :)
